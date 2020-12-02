@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(226, 215, 236);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.podstrony{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    background-color: rgb(147, 155, 229);
+  
+
+}
+.tabele{
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    background-color: rgb(177, 165, 197);
+}
+
+.glowny{
+    background-color: rgb(147, 155, 229);
+    height: 50px;
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+.adminGlowny{
+    height: 50px;
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(177, 165, 197);
+    
+}
+a{
+    color: white;
+}
+
+.main, .register, .login, .admin, .logout, .show, .gender, .sort{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 20px;
+    
+}
+.strona{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: rgb(192, 197, 201);
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formularz{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sumbit{
+    height: 40px;
+    width: 100px;
+}
+#login, #password{
+    height: 30px;
+    width: 300px;
+}
+#login{
+    margin-right: 20px;
+}
+td{
+    border: 1px solid black;
+}
+#uczen{
+    margin-left: 61px;
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+
+}
+#login{
+    margin-left: 69px;
+
+}
+#password{
+    margin-left: 22px;
+    margin-top: 20px;
+}
+#wiek{
+    margin-left:80px;
+    width: 308px;
+    height: 36px;
+    margin-top: 20px;
+
+}
+
+#k{
+    margin-left: 90px;
+    size: 30px;
+    margin-top: 20px;
+}
+#plec{
+    margin-top: 20px;
+}
+#submit{
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+}
